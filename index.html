@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>To Do list</title>
+</head>
+
+<body>
+    <div id="toDoListContainer">
+        <div class="header">
+            <h1 class="headerH1">TODO LIST</h1>
+            <input type="text" class="toDoInput" placeholder="Write here todo list">
+            <button class="btnAdd" onclick="addToDo()">Add</button>
+        </div>
+
+
+        <div class="todolist-Div">
+            <h3>List of Works Todo:</h3>
+            <p class="error-info"></p>
+
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="reEditDiv">
+        <h3>Edit your todo:</h3>
+        <div class="reEditDiv-body">
+            <p class="popup-info"></p>
+            <input type="text" placeholder="Edit here" class="reEditDivInput">
+            <button class="reEditDiv-Btn update">Update</button>
+            <button class="reEditDiv-Btn cancel">Cancel</button>
+        </div>
+    </div>
+
+<script src="./JS/script.js"></script>
+</body>
+
+</html>
